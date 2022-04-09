@@ -1,0 +1,21 @@
+.heading{
+    width:100%;
+    font-size: 25px;
+    box-shadow: 15px 15px 30px black;
+}
+
+.btn-warning:hover{
+   background-color: blue;
+}
+
+canvas{
+    animation-name: mahendra;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top:50px;
+}
+
+@keyframes mahendra{
+    from{box-shadow: 1px 1px 35px red}
+    to{box-shadow : 1px 1px 35px orange}
+}
